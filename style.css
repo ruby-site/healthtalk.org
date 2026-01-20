@@ -1,0 +1,182 @@
+body {
+background-color: #0d0f36;
+}
+
+.header{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: gainsboro;
+
+}
+
+.logo img{
+height: 60px;
+width: 140px;
+
+}
+
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-menu li{
+    display: inline-block;
+
+}
+
+.nav-menu a{
+ text-decoration: none; 
+ color: blue;  
+ font-weight: bold;
+}
+
+.home-image {
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 10;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    display: block;
+    margin: 10px;
+    justify-content: center;
+flex-wrap: wrap;
+}
+
+.gallery div {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.gallery h2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.main-pic {
+    justify-content: center;
+    max-width: 100%;
+}
+
+.main-pic img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 470px;
+    margin-top: 1%;
+    margin-left: 3%;
+
+}
+
+.main-pic p {
+    text-align: left;
+    font-size: 14pt;
+    width: 1200px;
+    margin-left: 3%;
+    color: white;
+}
+
+.contact-info {
+text-align: center; 
+font-size: 14pt;
+color: aqua;
+
+
+}
+.contact-info p {
+text-align: center;
+font-size: 14pt;
+color: aqua;
+justify-content: center;
+font-weight: bold;
+
+}
+
+.contact-info h2{
+font-weight: bold;
+font-size: 20pt;
+}
+
+.video-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.video h3{
+text-align: center;
+color: white;
+margin: 10px;
+justify-content: center;
+}
+
+.video-card p {
+    margin: 0 10px 10px;
+    text-align: center;
+background-color: #0d0f36;
+color: white;
+}
+.reserved{
+text-align: center;
+color: white;
+}
+
+.video-card h3{
+color: white;
+background-color: #0d0f36;
+text-align: center;
+font-size: larger;
+font-weight: bolder;
+}
+
+
+
+
+
+
